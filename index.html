@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1440">
+  <title>PodOfCast — Your Daily Podcast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="C:/Users/stepa/OneDrive/Desktop/BADI/css/styles.css">
+</head>
+<body>
+  <div class="landing">
+
+    <!-- Header / Hero -->
+    <header class="header">
+      <nav class="header__nav nav">
+        <div class="nav__logo logo">
+          <div class="logo__circle"></div>
+          <p class="logo__text">POD<br><span class="logo__text--black">OF</span><br><span class="logo__text--black">CAST</span></p>
+        </div>
+
+        <ul class="nav__menu">
+          <li><a class="nav__link" href="#">Episodes</a></li>
+          <li><a class="nav__link" href="#">About</a></li>
+          <li>
+            <a class="nav__link nav__link--dropdown" href="#">
+              More
+              <img class="nav__link-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/arrow-down.svg" alt="">
+            </a>
+          </li>
+        </ul>
+
+        <div class="nav__actions">
+          <a class="button button--outline button--nav" href="#">RECENT EPISODES</a>
+          <a class="button button--nav button--nav-shadow" href="#">SUBSCRIBE</a>
+        </div>
+      </nav>
+
+      <div class="header__hero">
+        <h1 class="hero__title"><span class="hero__title--black">Your Daily</span><br>Podcast</h1>
+        <p class="hero__subtitle">We cover all kinds of categories and<br>a weekly special guest.</p>
+      </div>
+
+      <a class="button button--hero header__subscribe" href="#">SUBSCRIBE</a>
+
+      <div class="header__covers">
+        <article class="cover-card">
+          <img class="cover-card__image" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-tesla.png" alt="Tesla Autopilot">
+          <h3 class="cover-card__title">Tesla Autopilot</h3>
+          <div class="cover-card__platforms">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Google Podcast">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="Spotify">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="YouTube">
+          </div>
+        </article>
+
+        <article class="cover-card">
+          <img class="cover-card__image" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-confidence.png" alt="Self-confidence">
+          <h3 class="cover-card__title">Self–confidence</h3>
+          <div class="cover-card__platforms">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Google Podcast">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="Spotify">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="YouTube">
+          </div>
+        </article>
+
+        <article class="cover-card">
+          <img class="cover-card__image" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-perplexed.png" alt="Perplexed Mind">
+          <h3 class="cover-card__title">Perplexed Mind</h3>
+          <div class="cover-card__platforms">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Google Podcast">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="Spotify">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="YouTube">
+          </div>
+        </article>
+
+        <article class="cover-card">
+          <img class="cover-card__image" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-womens-rights.png" alt="Women's Rights">
+          <h3 class="cover-card__title">Women's Rights</h3>
+          <div class="cover-card__platforms">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Google Podcast">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="Spotify">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="YouTube">
+          </div>
+        </article>
+
+        <article class="cover-card">
+          <img class="cover-card__image" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-social-class.png" alt="Social Class">
+          <h3 class="cover-card__title">Social Class</h3>
+          <div class="cover-card__platforms">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Google Podcast">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="Spotify">
+            <img class="cover-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="YouTube">
+          </div>
+        </article>
+      </div>
+
+      <div class="header__platforms">
+        <hr class="separator">
+        <div class="platforms-bar">
+          <p class="platforms-bar__label">Supported by:</p>
+          <div class="platforms-bar__logos">
+            <div class="platforms-bar__item">
+              <img class="platforms-bar__logo" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="Spotify">
+            </div>
+            <div class="platforms-bar__item">
+              <img class="platforms-bar__logo" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Google Podcast">
+            </div>
+            <div class="platforms-bar__item">
+              <img class="platforms-bar__logo" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="YouTube">
+            </div>
+          </div>
+        </div>
+        <hr class="separator">
+      </div>
+    </header>
+
+    <!-- About -->
+    <section class="about">
+      <div class="about__title section-title">
+        <h2 class="section-title__heading">Talk. Listen. Get inspired<br>by every minute of it.</h2>
+      </div>
+
+      <img class="about__illustration-left" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/illustration-01.svg" alt="Illustration">
+
+      <div class="about__text-block">
+        <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+        <p class="about__text about__text--bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+      </div>
+
+      <img class="about__illustration-right" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/illustration-02.svg" alt="Illustration">
+
+      <p class="about__text-block-right about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+
+      <blockquote class="about__quote quote">
+        <p class="quote__mark">"</p>
+        <p class="quote__text">One of the best daily podcasts that<br>covers every topic on Spotify.</p>
+        <div class="quote__author">
+          <div class="quote__avatar">
+            <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-john.png" alt="John Smith">
+          </div>
+          <span class="quote__name">John Smith,</span>
+          <div class="quote__role">
+            <svg class="quote__spotify-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="8" cy="8" r="8" fill="#1ED760" stroke="#000" stroke-width="1"/>
+            </svg>
+            Social Community Manager
+          </div>
+        </div>
+      </blockquote>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="section-title">
+        <h2 class="section-title__heading">What our listeners say</h2>
+        <p class="section-title__subtitle">Their experience throughout every platform</p>
+      </div>
+
+      <div class="testimonials__cards">
+        <article class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <p class="testimonial-card__text">Lorem ipsum dolor sit amet consectet<br>piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua.</p>
+          <div class="testimonial-card__author">
+            <div class="quote__avatar">
+              <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-luna.png" alt="Luna Lovegood">
+            </div>
+            <span class="quote__name">Luna lovegood,</span>
+            <div class="quote__role">
+              <img class="quote__spotify-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="Spotify">
+              Spotify
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <p class="testimonial-card__text">Lorem ipsum dolor sit amet consectet<br>piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua.</p>
+          <div class="testimonial-card__author">
+            <div class="quote__avatar">
+              <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-emily.png" alt="Emily Blunt">
+            </div>
+            <span class="quote__name">Emily Blunt,</span>
+            <div class="quote__role">
+              <img class="quote__spotify-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Google Podcast">
+              Google Podcast
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <p class="testimonial-card__text">Lorem ipsum dolor sit amet consectet<br>piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua.</p>
+          <div class="testimonial-card__author">
+            <div class="quote__avatar">
+              <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-mia.png" alt="Mia Winters">
+            </div>
+            <span class="quote__name">Mia Winters,</span>
+            <div class="quote__role">
+              <img class="quote__spotify-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Apple Podcast">
+              Apple Podcast
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="testimonials__arrows">
+        <img class="testimonials__arrow" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/arrow-left.svg" alt="Previous">
+        <img class="testimonials__arrow" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/arrow-right.svg" alt="Next">
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="section-title">
+        <h2 class="section-title__heading">Membership benefits</h2>
+        <p class="section-title__subtitle">Become our sponsor and get all benefits</p>
+      </div>
+
+      <div class="features__grid">
+        <article class="feature-item">
+          <img class="feature-item__icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/icon-scribble.svg" alt="">
+          <div class="feature-item__content">
+            <h3 class="feature-item__title">Topic by Request</h3>
+            <p class="feature-item__text">Lorem ipsum dolor sit amet consectet pis<br>cing elit, sed do eiusmod tempor.</p>
+          </div>
+        </article>
+
+        <article class="feature-item">
+          <img class="feature-item__icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/icon-stars.svg" alt="">
+          <div class="feature-item__content">
+            <h3 class="feature-item__title">Exclusive Content</h3>
+            <p class="feature-item__text">Lorem ipsum dolor sit amet consectet pis<br>cing elit, sed do eiusmod tempor.</p>
+          </div>
+        </article>
+
+        <article class="feature-item">
+          <img class="feature-item__icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/icon-face.svg" alt="">
+          <div class="feature-item__content">
+            <h3 class="feature-item__title">Join the Community</h3>
+            <p class="feature-item__text">Lorem ipsum dolor sit amet consectet pis<br>cing elit, sed do eiusmod tempor.</p>
+          </div>
+        </article>
+
+        <article class="feature-item">
+          <img class="feature-item__icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/icon-face5.svg" alt="">
+          <div class="feature-item__content">
+            <h3 class="feature-item__title">Livestreaming Access</h3>
+            <p class="feature-item__text">Lorem ipsum dolor sit amet consectet pis<br>cing elit, sed do eiusmod tempor.</p>
+          </div>
+        </article>
+
+        <article class="feature-item">
+          <img class="feature-item__icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/icon-fire.svg" alt="">
+          <div class="feature-item__content">
+            <h3 class="feature-item__title">Exclusive Episodes &amp; Merch</h3>
+            <p class="feature-item__text">Lorem ipsum dolor sit amet consectet pis<br>cing elit, sed do eiusmod tempor.</p>
+          </div>
+        </article>
+
+        <article class="feature-item">
+          <img class="feature-item__icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/icon-star.svg" alt="">
+          <div class="feature-item__content">
+            <h3 class="feature-item__title">And much more!</h3>
+            <p class="feature-item__text">Lorem ipsum dolor sit amet consectet pis<br>cing elit, sed do eiusmod tempor.</p>
+          </div>
+        </article>
+      </div>
+
+      <a class="button features__button" href="#">SEE PRICING</a>
+    </section>
+
+    <!-- Recent Episodes -->
+    <section class="episodes">
+      <div class="section-title">
+        <h2 class="section-title__heading">Recent Episodes</h2>
+        <p class="section-title__subtitle">Available on your favorite platform</p>
+      </div>
+
+      <div class="episodes__grid">
+        <article class="episode-card episode-card--hover">
+          <div class="episode-card__body">
+            <div class="episode-card__cover">
+              <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-pandemic.png" alt="Pandemic Becoming Endemic">
+              <div class="episode-card__platforms">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="">
+              </div>
+            </div>
+            <div class="episode-card__info">
+              <div class="episode-card__header">
+                <span class="episode-card__number">Eps. 6</span>
+                <h3 class="episode-card__title">Pandemic Becoming Endemic</h3>
+              </div>
+              <div class="episode-card__desc">
+                <hr class="episode-card__desc-line">
+                <p class="episode-card__desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="episode-card__footer">
+            <div class="episode-card__tags">
+              <span class="tag">covid-19</span>
+              <span class="tag">health</span>
+            </div>
+            <div class="episode-card__hosted">
+              <span class="episode-card__hosted-label">Hosted by:</span>
+              <div class="host-avatars">
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-1.png" alt="Host"></div>
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-2.png" alt="Host"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="episode-card">
+          <div class="episode-card__body">
+            <div class="episode-card__cover">
+              <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-tesla.png" alt="Tesla Autopilot Controversy">
+              <div class="episode-card__platforms">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="">
+              </div>
+            </div>
+            <div class="episode-card__info">
+              <div class="episode-card__header">
+                <span class="episode-card__number">Eps. 5</span>
+                <h3 class="episode-card__title">Tesla Autopilot Controversy</h3>
+              </div>
+              <div class="episode-card__desc">
+                <hr class="episode-card__desc-line">
+                <p class="episode-card__desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="episode-card__footer">
+            <div class="episode-card__tags">
+              <span class="tag">automation</span>
+              <span class="tag">tech</span>
+            </div>
+            <div class="episode-card__hosted">
+              <span class="episode-card__hosted-label">Hosted by:</span>
+              <div class="host-avatars">
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-1.png" alt="Host"></div>
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-2.png" alt="Host"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="episode-card">
+          <div class="episode-card__body">
+            <div class="episode-card__cover">
+              <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-womens-rights.png" alt="Women's Rights">
+              <div class="episode-card__platforms">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="">
+              </div>
+            </div>
+            <div class="episode-card__info">
+              <div class="episode-card__header">
+                <span class="episode-card__number">Eps. 4</span>
+                <h3 class="episode-card__title">Women's Rights? Is it alright?</h3>
+              </div>
+              <div class="episode-card__desc">
+                <hr class="episode-card__desc-line">
+                <p class="episode-card__desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="episode-card__footer">
+            <div class="episode-card__tags">
+              <span class="tag">women's rights</span>
+            </div>
+            <div class="episode-card__hosted">
+              <span class="episode-card__hosted-label">Hosted by:</span>
+              <div class="host-avatars">
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-1.png" alt="Host"></div>
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-2.png" alt="Host"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="episode-card episode-card--hover">
+          <div class="episode-card__body">
+            <div class="episode-card__cover">
+              <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-confidence.png" alt="Self-Confidence">
+              <div class="episode-card__platforms">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="">
+              </div>
+            </div>
+            <div class="episode-card__info">
+              <div class="episode-card__header">
+                <span class="episode-card__number">Eps. 3</span>
+                <h3 class="episode-card__title">How to Deal with Self–Confidence</h3>
+              </div>
+              <div class="episode-card__desc">
+                <hr class="episode-card__desc-line">
+                <p class="episode-card__desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="episode-card__footer">
+            <div class="episode-card__tags">
+              <span class="tag">self-esteem</span>
+              <span class="tag">health</span>
+            </div>
+            <div class="episode-card__hosted">
+              <span class="episode-card__hosted-label">Hosted by:</span>
+              <div class="host-avatars">
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-1.png" alt="Host"></div>
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-2.png" alt="Host"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="episode-card episode-card--hover">
+          <div class="episode-card__body">
+            <div class="episode-card__cover">
+              <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-social-class.png" alt="Social Classes">
+              <div class="episode-card__platforms">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="">
+              </div>
+            </div>
+            <div class="episode-card__info">
+              <div class="episode-card__header">
+                <span class="episode-card__number">Eps. 2</span>
+                <h3 class="episode-card__title">Type of Social Classes of People</h3>
+              </div>
+              <div class="episode-card__desc">
+                <hr class="episode-card__desc-line">
+                <p class="episode-card__desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="episode-card__footer">
+            <div class="episode-card__tags">
+              <span class="tag">social class</span>
+              <span class="tag">wealth</span>
+            </div>
+            <div class="episode-card__hosted">
+              <span class="episode-card__hosted-label">Hosted by:</span>
+              <div class="host-avatars">
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-1.png" alt="Host"></div>
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-2.png" alt="Host"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="episode-card">
+          <div class="episode-card__body">
+            <div class="episode-card__cover">
+              <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/cover-perplexed.png" alt="Perplexed Mind">
+              <div class="episode-card__platforms">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="">
+                <img class="episode-card__platform-icon" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="">
+              </div>
+            </div>
+            <div class="episode-card__info">
+              <div class="episode-card__header">
+                <span class="episode-card__number">Eps. 1</span>
+                <h3 class="episode-card__title">Are you a Perplexed Mind Person?</h3>
+              </div>
+              <div class="episode-card__desc">
+                <hr class="episode-card__desc-line">
+                <p class="episode-card__desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="episode-card__footer">
+            <div class="episode-card__tags">
+              <span class="tag">mind-behaviour</span>
+              <span class="tag">health</span>
+            </div>
+            <div class="episode-card__hosted">
+              <span class="episode-card__hosted-label">Hosted by:</span>
+              <div class="host-avatars">
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-1.png" alt="Host"></div>
+                <div class="host-avatars__item"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/avatar-host-2.png" alt="Host"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <a class="button episodes__button" href="#">BROWSE ALL EPISODES</a>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing">
+      <div class="section-title">
+        <h2 class="section-title__heading">Become our sponsor</h2>
+        <p class="section-title__subtitle">Get exclusive episodes, merch and more</p>
+      </div>
+
+      <div class="pricing__cards">
+        <article class="pricing-card">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name">Member</h3>
+            <p class="pricing-card__desc">Lorem ipsum dolor sit amet consectet<br>cing elit, sed do eiusmod tempor.</p>
+            <div class="pricing-card__footer">
+              <a class="button" href="#">SUBSCRIBE</a>
+              <p class="pricing-card__price">$9.99<br><span class="pricing-card__price-period">/month</span></p>
+            </div>
+          </div>
+          <div class="pricing-card__benefits">
+            <p class="pricing-card__benefits-title">What's included:</p>
+            <ul class="pricing-card__benefits-list">
+              <li class="pricing-card__benefits-item">• Exclusive Content</li>
+              <li class="pricing-card__benefits-item">• 5% Discount on Merch</li>
+              <li class="pricing-card__benefits-item">• Join the Community</li>
+              <li class="pricing-card__benefits-item">• Livestreaming Access</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="pricing-card">
+          <div class="pricing-card__header pricing-card__header--popular">
+            <div class="pricing-card__title-row">
+              <h3 class="pricing-card__name">Family</h3>
+              <span class="tag tag--filled">MOST POPULAR</span>
+            </div>
+            <p class="pricing-card__desc">Lorem ipsum dolor sit amet consectet<br>cing elit, sed do eiusmod tempor.</p>
+            <div class="pricing-card__footer">
+              <a class="button" href="#">SUBSCRIBE</a>
+              <p class="pricing-card__price">$14.99<br><span class="pricing-card__price-period">/month</span></p>
+            </div>
+          </div>
+          <div class="pricing-card__benefits pricing-card__benefits--popular">
+            <p class="pricing-card__benefits-title">What's included:</p>
+            <ul class="pricing-card__benefits-list">
+              <li class="pricing-card__benefits-item pricing-card__benefits-item--bold">• Everything in Tier 1</li>
+              <li class="pricing-card__benefits-item">• Free tickets to Events</li>
+              <li class="pricing-card__benefits-item">• Limited Edition Merch</li>
+              <li class="pricing-card__benefits-item">• Promote your Product</li>
+              <li class="pricing-card__benefits-item">• Request Topic</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="pricing-card">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name">Official</h3>
+            <p class="pricing-card__desc">Lorem ipsum dolor sit amet consectet<br>cing elit, sed do eiusmod tempor.</p>
+            <div class="pricing-card__footer">
+              <a class="button" href="#">SUBSCRIBE</a>
+              <p class="pricing-card__price">$29.99<br><span class="pricing-card__price-period">/month</span></p>
+            </div>
+          </div>
+          <div class="pricing-card__benefits">
+            <p class="pricing-card__benefits-title">What's included:</p>
+            <ul class="pricing-card__benefits-list">
+              <li class="pricing-card__benefits-item pricing-card__benefits-item--bold">• Everything in Tier 2</li>
+              <li class="pricing-card__benefits-item">• Exclusive Badge on Livestreaming</li>
+              <li class="pricing-card__benefits-item">• Become an Official Sponsor</li>
+              <li class="pricing-card__benefits-item">• Early Access to All Episodes</li>
+              <li class="pricing-card__benefits-item">• Free Stikers and Merch</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="blog">
+      <div class="section-title">
+        <h2 class="section-title__heading">Article and News</h2>
+        <p class="section-title__subtitle">News, tips, tricks and more</p>
+      </div>
+
+      <div class="blog__cards">
+        <article class="blog-card blog-card--hover">
+          <img class="blog-card__image" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/blog-podcast.png" alt="Setup your own podcast">
+          <div class="blog-card__content">
+            <div>
+              <p class="blog-card__category">PODCAST</p>
+              <h3 class="blog-card__title blog-card__title--accent">Setup your own podcast</h3>
+            </div>
+            <p class="blog-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="blog-card__footer">
+            <hr class="separator separator--thin">
+            <div class="blog-card__meta">
+              <div class="blog-card__tags">
+                <span class="tag">business</span>
+                <span class="tag">startup</span>
+              </div>
+              <span class="blog-card__date">Sep 14, 2021</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <img class="blog-card__image" src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/images/blog-doodle.png" alt="Doodle artwork 101">
+          <div class="blog-card__content">
+            <div>
+              <p class="blog-card__category">TIPS &amp; TRICK</p>
+              <h3 class="blog-card__title">Doodle artwork 101</h3>
+            </div>
+            <p class="blog-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="blog-card__footer">
+            <hr class="separator separator--thin">
+            <div class="blog-card__meta">
+              <div class="blog-card__tags">
+                <span class="tag">art</span>
+                <span class="tag">creative</span>
+                <span class="tag">tips and trick</span>
+              </div>
+              <span class="blog-card__date">Sep 12, 2021</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <a class="button blog__button" href="#">BROWSE ALL</a>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <span class="tag tag--accent cta__badge">BETA</span>
+      <h2 class="cta__title">Available now<br>Pod of Cast App</h2>
+      <p class="cta__subtitle">We just launched our podcast app!</p>
+      <a class="button cta__button" href="#">DOWNLOAD NOW</a>
+      <div class="cta__platforms">
+        <p class="cta__platforms-label">Content also available on:</p>
+        <div class="cta__platforms-logos">
+          <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Google Podcast">
+          <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="Spotify">
+          <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="YouTube">
+        </div>
+      </div>
+      <div class="cta__phone-left" aria-hidden="true"></div>
+      <div class="cta__phone-right" aria-hidden="true"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <hr class="footer__top-line">
+
+      <div class="footer__logo logo">
+        <div class="logo__circle"></div>
+        <p class="logo__text">POD<br><span>OF</span><br><span>CAST</span></p>
+      </div>
+
+      <p class="footer__copyright">©2021.</p>
+      <p class="footer__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <div class="footer__socials">
+        <a href="#"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/tiktok.svg" alt="TikTok"></a>
+      </div>
+
+      <nav class="footer__menu footer__menu--1">
+        <a class="footer__menu-link" href="#">About</a>
+        <a class="footer__menu-link footer__menu-link--accent" href="#">Testimonials</a>
+        <a class="footer__menu-link" href="#">Features</a>
+      </nav>
+
+      <nav class="footer__menu footer__menu--2">
+        <a class="footer__menu-link footer__menu-link--accent" href="#">Episodes</a>
+        <a class="footer__menu-link" href="#">Pricing</a>
+        <a class="footer__menu-link" href="#">Blog</a>
+      </nav>
+
+      <div class="footer__platforms-top">
+        <p class="footer__platforms-label">Listen to episodes on your fav platform:</p>
+        <div class="footer__platforms-row">
+          <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-podcast-logo.svg" alt="Google Podcast">
+          <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/spotify-logo.svg" alt="Spotify">
+          <img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/youtube-logo.svg" alt="YouTube">
+        </div>
+      </div>
+
+      <div class="footer__app">
+        <p class="footer__platforms-label">App available on:</p>
+        <div class="footer__app-logos">
+          <a href="#"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/app-store.svg" alt="App Store"></a>
+          <a href="#"><img src="C:/Users/stepa/OneDrive/Desktop/BADI/assets/icons/google-play.svg" alt="Google Play"></a>
+        </div>
+      </div>
+
+      <div class="footer__footnote">
+        <hr class="separator separator--thin">
+        <div class="footer__footnote-row">
+          <p class="footer__footnote-text">©2022. All Rights Reserved. <span>Pod of Cast</span></p>
+          <div class="footer__footnote-links">
+            <a href="#">Terms</a>
+            <span>•</span>
+            <a href="#">Privacy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
